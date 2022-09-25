@@ -1,5 +1,5 @@
 window.onload = function () {
-  document.getElementById("download").addEventListener("click", () => {
+  document.getElementById("downloads").addEventListener("click", () => {
     const invoice = this.document.getElementById("invoice");
     console.log(invoice);
     console.log(window);
